@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.form-control-dark {
+    color: #fff !important;
+    background-color: #212529 !important;
+    border-color: #6c757d !important;
+}
+
+a,
+.bi,
+.f-control {
+    cursor: pointer;
+}
+
+.form-bg {
+    /* width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto; */
+    background: linear-gradient(150deg, rgb(0, 0, 144) 0%, rgb(125, 0, 170) 100%);
+}
+
+.form {
+    max-width: 330px;
+    border-radius: 15px;
+    padding: 1.2rem 0;
+}
+
+.form form {
+    padding: 0.5rem 1.5rem;
+}
+
+.form button {
+    background: linear-gradient(150deg, rgb(0, 0, 144) 0%, rgb(125, 0, 170) 100%);
+}
